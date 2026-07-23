@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium theme colors for Progresivo Consulting */
+  --color-primary-50: #f4f7fc;
+  --color-primary-100: #e2ecf7;
+  --color-primary-200: #c9dbf1;
+  --color-primary-300: #a1c2e7;
+  --color-primary-400: #71a3da;
+  --color-primary-500: #4b82ca;
+  --color-primary-600: #1b5bb5;
+  --color-primary-700: #164993;
+  --color-primary-800: #143d7c;
+  --color-primary-900: #133365;
+  --color-primary-950: #0a1731;
+
+  --color-accent-50: #fdfaf2;
+  --color-accent-100: #f7edd4;
+  --color-accent-500: #b8860b;
+  --color-accent-600: #996515;
+  --color-accent-700: #7e520f;
+}
+
+/* Custom premium elements for Professional Polish */
+.premium-gradient-bg {
+  background: radial-gradient(100% 100% at 50% 0%, #133365 0%, #0a1731 100%);
+}
+
+.premium-card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(10, 23, 49, 0.05), 0 2px 4px -1px rgba(10, 23, 49, 0.03);
+}
+
+.premium-card-shadow-lg {
+  box-shadow: 0 10px 30px -5px rgba(10, 23, 49, 0.08), 0 4px 12px -2px rgba(10, 23, 49, 0.04);
+}
+
+.premium-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.premium-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -10px rgba(10, 23, 49, 0.12), 0 4px 16px -2px rgba(10, 23, 49, 0.06);
+}
+
